@@ -63,3 +63,30 @@ controls="controls" style="max-width: 730px;" poster="/external/logos/Selenoid.s
 <img src="https://user-images.githubusercontent.com/41300396/196721255-9ccf76e7-a77f-4e66-a0bf-abea80f3bba2.png" alt="Jenkins">
 </a>
 
+<a id="allure"></a>
+## <a href="https://jenkins.autotests.cloud/job/qa_guru_15_test_project/19/allure"><img alt="Allure" height="50" src="external/logos/Allure.svg" width="50"/>Allure</a>
+
+
+<img width="1480" alt="Снимок экрана 2022-10-19 в 15 53 31" src="https://user-images.githubusercontent.com/41300396/196721938-3e58cf6a-d51a-4e42-8bc7-09660bc44b78.png">
+
+
+
+<img width="1471" alt="Снимок экрана 2022-10-19 в 16 32 53" src="https://user-images.githubusercontent.com/41300396/196721957-0e12234b-b260-404a-b954-1aefd2c1639c.png">
+
+
+
+<table>
+    <tr>
+        <td>
+        <a href="https://jenkins.autotests.cloud/job/qa_guru_15_test_project/19/allure">
+        <img src="https://user-images.githubusercontent.com/41300396/196721938-3e58cf6a-d51a-4e42-8bc7-09660bc44b78.png">
+        </a>
+        </td>
+        <td>
+        <a href="https://jenkins.autotests.cloud/job/qa_guru_15_test_project/19/allure/#suites/d0ad84e2d930155977a3f11edd63acba/3ea56f3a3afe51ad/">
+        <img src="https://user-images.githubusercontent.com/41300396/196721957-0e12234b-b260-404a-b954-1aefd2c1639c.png">
+        </a>
+        </td>
+    </tr>
+</table>
+
