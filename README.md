@@ -12,7 +12,7 @@
   + <a href="#telegram">Telegram</a>
   
 <a id="stack"></a>
-## :hammer_and_wrench: Cтек проекта
+## :briefcase: Cтек проекта
 <div align="center">
 <a href="https://www.jetbrains.com/idea/"><img alt="InteliJ IDEA" height="50" src="external/logos/Intelij_IDEA.svg" width="50"/></a>
 <a href="https://www.java.com/"><img alt="Java" height="50" src="external/logos/Java.svg" width="50"/></a>
@@ -28,7 +28,7 @@
 
 
 <a id="object"></a>
-## :mag: Реализованные автотесты
+## :keyboard: Реализованные автотесты
 - Проверка отображения логотипа на главной странице
 - Проверка открытия формы поиска
 - Проверка наличия блока made to order и скролл до него
@@ -37,7 +37,7 @@
 
 
 <a id="console"></a>
-## :computer: Команды запуска
+## :comet: Команды запуска
 ```bash
 clean
 test
