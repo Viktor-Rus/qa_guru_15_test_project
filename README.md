@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования Advantagesolutions
 
-## :bookmark_tabs: Содержание
+## :ledger: Содержание
 
 * <a href="#stack">Cтек проекта</a>
 * <a href="#object">Реализованные автотесты</a>
