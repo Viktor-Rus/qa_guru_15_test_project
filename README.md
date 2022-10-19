@@ -53,3 +53,13 @@ test
 controls="controls" style="max-width: 730px;" poster="/external/logos/Selenoid.svg">
 Видео не доступно для этого браузера
 </video>
+
+
+<a id="jenkins"></a>
+##  <a href="https://jenkins.autotests.cloud/job/qa_guru_15_test_project/"><img alt="Jenkins" height="50" src="external/logos/Jenkins.svg" width="50"/>Jenkins</a>
+  
+<a href="https://jenkins.autotests.cloud/job/qa_guru_15_test_project/">
+
+<img src="https://user-images.githubusercontent.com/41300396/196721255-9ccf76e7-a77f-4e66-a0bf-abea80f3bba2.png" alt="Jenkins">
+</a>
+
