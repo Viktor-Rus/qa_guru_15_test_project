@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 public class MainPageTests extends TestBase {
     @Test
     void mainLogoVisible() {
-        step("check logo visible", () -> {
+        step("Проверка отображения логотипа на главной странице", () -> {
             open("/");
             $("svg[class*='main-logo']").should(appear);
         });
@@ -18,7 +18,7 @@ public class MainPageTests extends TestBase {
 
     @Test
     void openFormSearch() {
-        step("Open search form", () -> {
+        step("Проверка открытия формы поиска", () -> {
             open("/");
             $("div[class='search-site']").click();
             $("input[name='s']").should(appear);
@@ -27,33 +27,33 @@ public class MainPageTests extends TestBase {
 
     @Test
     void madeToOrderScroll() {
-        step("Scroll to made to order", () -> {
+        step("Скролл до блока made to order", () -> {
             open("/");
             $("section[class='made-to-order']").scrollTo();
         });
-        step("check section made to order", () -> {
+        step("Проверка отображения блока  made to order", () -> {
             $("section[class='made-to-order']").should(appear);
         });
     }
 
     @Test
     void investorsOpenPage() {
-        step("Open page Investors", () -> {
+        step("Перехода на вкладку INVESTORS", () -> {
             open("/");
             $("a[title='Investors']").click();
         });
-        step("check open page Investors", () -> {
+        step("проверка открытии вкладки Investors", () -> {
             assertEquals( "INVESTORS", $("h1[class='page-title']").getText());
         });
     }
 
     @Test
     void associateLoginInFooter() {
-        step("Scroll to foote", () -> {
+        step("Скролл до футтера", () -> {
             open("/");
             $("footer[class='footer-wrapper']").scrollTo();
         });
-        step("Click associate login and check form", () -> {
+        step("Клик по кнопке входа и проверка открытия формы", () -> {
             $x("//a[.='Associate Login']").click();
             assertEquals( "ASSOCIATE LOGIN", $("h1[class='page-title']").getText());
         });
