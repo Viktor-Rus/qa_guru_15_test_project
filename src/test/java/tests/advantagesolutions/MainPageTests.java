@@ -1,6 +1,7 @@
 package tests.advantagesolutions;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.appear;
@@ -10,7 +11,7 @@ import static io.qameta.allure.Allure.step;
 
 public class MainPageTests extends TestBase {
 
-    @AfterEach
+    @BeforeEach
     public void visitMainPage(){
         open("/");
     }
