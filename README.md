@@ -67,14 +67,6 @@ controls="controls" style="max-width: 730px;" poster="/external/logos/Selenoid.s
 ## <a href="https://jenkins.autotests.cloud/job/qa_guru_15_test_project/19/allure"><img alt="Allure" height="50" src="external/logos/Allure.svg" width="50"/>Allure</a>
 
 
-<img width="1480" alt="Снимок экрана 2022-10-19 в 15 53 31" src="https://user-images.githubusercontent.com/41300396/196721938-3e58cf6a-d51a-4e42-8bc7-09660bc44b78.png">
-
-
-
-<img width="1471" alt="Снимок экрана 2022-10-19 в 16 32 53" src="https://user-images.githubusercontent.com/41300396/196721957-0e12234b-b260-404a-b954-1aefd2c1639c.png">
-
-
-
 <table>
     <tr>
         <td>
@@ -89,4 +81,11 @@ controls="controls" style="max-width: 730px;" poster="/external/logos/Selenoid.s
         </td>
     </tr>
 </table>
+
+
+
+<a id="telegram"></a>
+## <a><img alt="Telegram" height="50" src="external/logos/Telegram.svg" width="50"/>Telegram</a>
+
+<img width="769" alt="Снимок экрана 2022-10-19 в 16 39 47" src="https://user-images.githubusercontent.com/41300396/196722337-52c9460f-83a5-4b4b-b7b9-17f339b69c72.png">
 
