@@ -1,5 +1,6 @@
 package tests.advantagesolutions;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.appear;
@@ -8,10 +9,14 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 public class MainPageTests extends TestBase {
+
+    @AfterEach
+    public void visitMainPage(){
+        open("/");
+    }
     @Test
     void mainLogoVisible() {
         step("Проверка отображения логотипа на главной странице", () -> {
-            open("/");
             $("svg[class*='main-logo']").should(appear);
         });
     }
@@ -19,7 +24,6 @@ public class MainPageTests extends TestBase {
     @Test
     void openFormSearch() {
         step("Проверка открытия формы поиска", () -> {
-            open("/");
             $("div[class='search-site']").click();
             $("input[name='s']").should(appear);
         });
@@ -28,7 +32,6 @@ public class MainPageTests extends TestBase {
     @Test
     void madeToOrderScroll() {
         step("Скролл до блока made to order", () -> {
-            open("/");
             $("section[class='made-to-order']").scrollTo();
         });
         step("Проверка отображения блока  made to order", () -> {
@@ -39,7 +42,6 @@ public class MainPageTests extends TestBase {
     @Test
     void investorsOpenPage() {
         step("Перехода на вкладку INVESTORS", () -> {
-            open("/");
             $("a[title='Investors']").click();
         });
         step("проверка открытии вкладки Investors", () -> {
@@ -50,7 +52,6 @@ public class MainPageTests extends TestBase {
     @Test
     void associateLoginInFooter() {
         step("Скролл до футтера", () -> {
-            open("/");
             $("footer[class='footer-wrapper']").scrollTo();
         });
         step("Клик по кнопке входа и проверка открытия формы", () -> {
