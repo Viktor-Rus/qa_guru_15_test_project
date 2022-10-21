@@ -24,6 +24,7 @@ public class TestBase {
         Configuration.baseUrl = "https://advantagesolutions.net/";
 //        Configuration.browserSize = "1920x1080";
         Configuration.browserSize = System.getProperty("browser_size");
+        System.out.println("SIZE ! " +  System.getProperty("browser_size"));
 //        Configuration.remote = System.getProperty("remote_selenide");
 //        System.out.println("REMOTE !" +  System.getProperty("remote_selenide"));
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
